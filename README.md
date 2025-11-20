@@ -2,6 +2,8 @@
 
 Este paquete contiene todos los materiales para la presentación en el evento "Territorios que inspiran: Retos y Oportunidades de la Bioeconomía en Antioquia" (25 de noviembre, 2025).
 
+https://josefernandoguarin.github.io/PresentacionBioeconomicos/
+
 ## Contenido
 
 ### 1. `bioeconomia_territorios_gamma.html` 
@@ -169,9 +171,7 @@ Después de la presentación, considerar documentar:
 - Facultad de Ciencias Agrarias - Universidad de Antioquia
 - Instituto Interamericano de Cooperación para la Agricultura (IICA)
 
----
 
-**¡ÉXITO EN LA PRESENTACIÓN!**
 
 Para cualquier consulta o asistencia técnica, contactar a:  
 josefernando.guarin@udea.edu.co# PresentacionBioeconomicos
