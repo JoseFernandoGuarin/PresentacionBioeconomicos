@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Modelos de Negocios Bioeconómicos en Territorios Rurales - GAMMA</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/white.min.css">
+		<style>
+			.reveal .slides section {
+				text-align: left;
+			}
+			.reveal h1 {
+				text-align: center;
+				color: #2E8B57;
+				font-size: 1.4em;
+				margin-bottom: 0.5em;
+				text-transform: none;
+			}
+			.reveal h2 {
+				text-align: center;
+				color: #2E8B57;
+				font-size: 1.15em;
+				margin-bottom: 0.4em;
+				text-transform: none;
+			}
+			.reveal h3 {
+				color: #4682B4;
+				font-size: 1em;
+				margin-bottom: 0.3em;
+				text-transform: none;
+			}
+			.reveal .title-slide {
+				text-align: center;
+			}
+			.reveal .title-slide h1 {
+				font-size: 1.6em;
+				margin-bottom: 0.3em;
+			}
+			.reveal .title-slide h2 {
+				font-size: 1.15em;
+				color: #666;
+			}
+			.highlight-box {
+				background: #f0f8ff;
+				border-left: 5px solid #2E8B57;
+				padding: 0.8em;
+				margin: 0.6em 0;
+				font-size: 0.85em;
+			}
+			.solution-box {
+				background: #fff5ee;
+				border-left: 5px solid #ff8c42;
+				padding: 0.8em;
+				margin: 0.6em 0;
+				font-size: 0.85em;
+			}
+			.tech-box {
+				background: #f5f5dc;
+				border-left: 5px solid #4682B4;
+				padding: 0.8em;
+				margin: 0.6em 0;
+				font-size: 0.85em;
+			}
+			.reveal p, .reveal li {
+				font-size: 0.8em;
+				line-height: 1.3;
+				margin-bottom: 0.4em;
+			}
+			.reveal ul {
+				margin: 0.4em 0;
+			}
+			.reveal strong {
+				color: #2E8B57;
+			}
+			.two-column {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 1.5em;
+				align-items: start;
+			}
+			.logo-container {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 2em;
+				margin-top: 1em;
+			}
+			.logo-container img {
+				height: 60px;
+				object-fit: contain;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<!-- Diapositiva de Título -->
+				<section class="title-slide">
+					<h1>Modelos de Negocios Bioeconómicos en Territorios Rurales</h1>
+					<h2>Tecnologías de bajo costo para la transformación del campo colombiano</h2>
+					<p style="margin-top: 2em; font-size: 0.85em;">
+						<strong>José Fernando Guarín Montoya, Ph.D.</strong><br>
+						Mario Fernando Cerón Muñoz, Ph.D.<br>
+						Grupo de Investigación GAMMA<br>
+						Facultad de Ciencias Agrarias - Universidad de Antioquia
+					</p>
+					<p style="margin-top: 1em; font-size: 0.75em; color: #666;">
+						Evento: Territorios que inspiran: Retos y Oportunidades de la Bioeconomía en Antioquia<br>
+						25 de noviembre de 2025
+					</p>
+				</section>
+
+				<!-- SITUACIÓN (S) -->
+				<section>
+					<h1>La Bioeconomía: Una Oportunidad para Territorios Rurales</h1>
+					<div class="highlight-box">
+						<p><strong>Los sistemas productivos bovinos en Colombia representan:</strong></p>
+						<ul>
+							<li>1.5% del PIB nacional y 20% del PIB agropecuario</li>
+							<li>Más de 500,000 familias rurales dependen directamente de la ganadería</li>
+							<li>Antioquia: 1.2 millones de cabezas de ganado en 35,000 predios</li>
+							<li>El 68% de los productores son pequeños y medianos (< 50 animales)</li>
+						</ul>
+					</div>
+					<p><strong>Sin embargo...</strong> La productividad y sostenibilidad de estos sistemas enfrenta desafíos críticos que limitan su potencial bioeconómico.</p>
+				</section>
+
+				<!-- COMPLICACIÓN (C) - Parte 1 -->
+				<section>
+					<h1>Brechas Tecnológicas que Limitan la Competitividad</h1>
+					<div class="two-column">
+						<div>
+							<h3>🔴 Acceso Limitado a Tecnología</h3>
+							<ul>
+								<li>Equipos de monitoreo: $5,000-$50,000 USD</li>
+								<li>Sistemas de gestión: >$2,000 USD/año</li>
+								<li>Inaccesibles para el 85% de productores</li>
+							</ul>
+							<h3 style="margin-top: 1em;">🔴 Información Fragmentada</h3>
+							<ul>
+								<li>Datos productivos sin integrar</li>
+								<li>Decisiones basadas en intuición</li>
+								<li>Imposibilidad de cuantificar impactos</li>
+							</ul>
+						</div>
+						<div>
+							<h3>🔴 Impactos Económicos</h3>
+							<ul>
+								<li><strong>Mastitis bovina:</strong> pérdidas de $150-200/vaca/año</li>
+								<li><strong>Emisiones de metano:</strong> sin cuantificación individual</li>
+								<li><strong>Ineficiencia alimentaria:</strong> 30-40% de desperdicio nutricional</li>
+								<li><strong>Descarte prematuro:</strong> reducción de 2-3 años en vida productiva</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- COMPLICACIÓN (C) - Parte 2 -->
+				<section>
+					<h1>La Urgencia de Democratizar la Bioeconomía</h1>
+					<div class="highlight-box">
+						<p><strong>¿Qué necesitan los productores rurales?</strong></p>
+						<ul>
+							<li>✓ Herramientas tecnológicas <strong>accesibles</strong> (< $200 USD)</li>
+							<li>✓ Modelos bioeconómicos que integren <strong>biología + economía + ambiente</strong></li>
+							<li>✓ Sistemas de apoyo a decisiones basados en <strong>datos objetivos</strong></li>
+							<li>✓ Capacitación técnica <strong>contextualizada</strong> a sus realidades</li>
+						</ul>
+					</div>
+					<p style="text-align: center; margin-top: 1em; font-size: 1.1em; color: #2E8B57;">
+						<strong>Pregunta central:</strong> ¿Cómo desarrollar soluciones bioeconómicas que sean técnicamente robustas y económicamente viables para pequeños y medianos productores?
+					</p>
+				</section>
+
+				<!-- RESOLUCIÓN (R) - Presentación de GAMMA -->
+				<section>
+					<h1>Nuestra Respuesta: Bioeconomía Aplicada desde GAMMA</h1>
+					<div class="solution-box">
+						<p><strong>Grupo GAMMA - Universidad de Antioquia</strong></p>
+						<p>Desarrollamos <strong>modelos bioeconómicos</strong> y <strong>soluciones tecnológicas de bajo costo</strong> que integran:</p>
+					</div>
+					<div class="two-column" style="margin-top: 1em;">
+						<div>
+							<h3>📚 Fundamentación Teórica</h3>
+							<ul>
+								<li>Modelos de evaluación de bovinos</li>
+								<li>Pseudosimulación bioeconómica</li>
+								<li>Análisis de rentabilidad (RDDbio)</li>
+							</ul>
+						</div>
+						<div>
+							<h3>🔧 Desarrollo Tecnológico</h3>
+							<ul>
+								<li>Sensores IoT de bajo costo</li>
+								<li>Inteligencia artificial aplicada</li>
+								<li>Plataformas de código abierto</li>
+							</ul>
+						</div>
+					</div>
+					<p style="margin-top: 1em;"><strong>Enfoque:</strong> Co-creación con productores rurales para asegurar adopción y sostenibilidad.</p>
+				</section>
+
+				<!-- RESOLUCIÓN (R) - Libro de Bioeconomía -->
+				<section>
+					<h1>Fundamento: Libro "Modelos Bioeconómicos para Evaluación de Bovinos"</h1>
+					<div class="two-column">
+						<div>
+							<div class="tech-box">
+								<p><strong>Autores:</strong> Mario F. Cerón-Muñoz & José F. Guarín-Montoya</p>
+								<p><strong>Editorial:</strong> Generis Publishing (2024)</p>
+								<p><strong>Enfoque:</strong> Transdisciplinar (economía + biología + producción animal + ambiente)</p>
+							</div>
+							<p><strong>Contenido:</strong></p>
+							<ul style="font-size: 0.75em;">
+								<li><strong>Cap. 1:</strong> Costos parciales y Retorno Diferencial de Desempeño (RDDbio)</li>
+								<li><strong>Cap. 2:</strong> Evaluación bioeconómica mediante pseudosimulación</li>
+								<li><strong>Cap. 3:</strong> Dinámica de sistemas de producción</li>
+								<li><strong>Cap. 4:</strong> Herramientas analíticas para valoración de fincas</li>
+							</ul>
+						</div>
+						<div>
+							<div class="highlight-box">
+								<p><strong>Innovación Metodológica:</strong></p>
+								<ul style="font-size: 0.75em;">
+									<li>✓ Integra parámetros biológicos, económicos y ambientales</li>
+									<li>✓ Algoritmos en R-project (código abierto)</li>
+									<li>✓ Aplicable a diferentes sistemas productivos</li>
+									<li>✓ Permite comparar individuos y sistemas</li>
+								</ul>
+							</div>
+							<p style="font-size: 0.75em; margin-top: 1em;"><strong>Impacto:</strong> Financiado por CODI-UdeA (Proyecto 2022-52272). Base conceptual para desarrollos tecnológicos posteriores.</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- RESOLUCIÓN (R) - Caso 1: Tesis de Manuela -->
+				<section>
+					<h1>Caso 1: Modelo Bioeconómico para Mastitis Bovina</h1>
+					<div class="solution-box">
+						<p><strong>Proyecto de Maestría:</strong> Manuela Alejandra Cuartas Herrera</p>
+						<p><strong>Directores:</strong> José F. Guarín & Mario F. Cerón</p>
+						<p><strong>Título:</strong> "Modelo bioeconómico para evaluación del impacto del Recuento de Células Somáticas (RCS) sobre la rentabilidad en sistemas lecheros de trópico alto colombiano"</p>
+					</div>
+					<div class="two-column" style="margin-top: 0.8em;">
+						<div>
+							<h3>🎯 Objetivos</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Analizar relación RCS vs. variables productivas</li>
+								<li>Evaluar impacto del RCS en costos de producción</li>
+								<li>Desarrollar aplicativo bioeconómico</li>
+							</ul>
+							<h3 style="margin-top: 0.8em;">📊 Metodología</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Análisis de registros de pago por calidad</li>
+								<li>Encuestas a productores</li>
+								<li>Simulación de escenarios</li>
+							</ul>
+						</div>
+						<div>
+							<h3>💡 Innovación</h3>
+							<div class="tech-box" style="font-size: 0.75em;">
+								<p><strong>Primera herramienta</strong> en Colombia que integra:</p>
+								<ul>
+									<li>✓ Datos de calidad industrial (RCS)</li>
+									<li>✓ Variables productivas y composicionales</li>
+									<li>✓ Costos de tratamiento y descarte</li>
+									<li>✓ Análisis de rentabilidad por escenario</li>
+								</ul>
+								<p style="margin-top: 0.5em;"><strong>Impacto esperado:</strong> Reducción de 20-30% en pérdidas por mastitis mediante decisiones informadas.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- RESOLUCIÓN (R) - Caso 2: Cooperación Texas A&M -->
+				<section>
+					<h1>Caso 2: Cooperación Internacional - Estaciones Inteligentes de Ganadería</h1>
+					<div class="solution-box">
+						<p><strong>Proyecto:</strong> "Mejoramiento de la Productividad del Ganado de Carne en Colombia a través de Tecnologías Inteligentes de Bajo Costo"</p>
+						<p><strong>Duración:</strong> 60 meses | <strong>Financiamiento:</strong> USDA Food for Progress (US$35 millones)</p>
+					</div>
+					<div style="margin-top: 0.8em;">
+						<h3>🤝 Alianza Estratégica</h3>
+						<ul style="font-size: 0.75em;">
+							<li><strong>Líder:</strong> Texas A&M University-Kingsville</li>
+							<li><strong>Socios:</strong> Texas A&M AgriLife, Universidad de Antioquia (FCA-GAMMA), FEDEGAN, AGROSAVIA</li>
+							<li><strong>Región:</strong> Norte de Antioquia y otras zonas ganaderas</li>
+						</ul>
+					</div>
+					<div class="two-column" style="margin-top: 0.8em;">
+						<div>
+							<h3>🔧 Componente Tecnológico</h3>
+							<div class="tech-box" style="font-size: 0.75em;">
+								<p><strong>Estaciones Inteligentes de Ganadería</strong></p>
+								<ul>
+									<li>Autónomas (energía solar)</li>
+									<li>Sistema de pesaje integrado</li>
+									<li>Cámaras multi-ángulo</li>
+									<li>Sensores de gases (CH₄)</li>
+									<li>Conectividad IoT</li>
+								</ul>
+							</div>
+						</div>
+						<div>
+							<h3>📚 Componente Formativo</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Talleres con >1,000 productores</li>
+								<li>Contenidos de extensión digital</li>
+								<li>Fincas demostrativas</li>
+								<li>Experiencias de investigación estudiantil</li>
+							</ul>
+							<p style="margin-top: 0.8em; font-size: 0.75em;"><strong>Meta:</strong> Incrementar productividad ganadera y expandir comercio regional mediante ganadería de precisión.</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- RESOLUCIÓN (R) - Caso 3: Dispositivo de Metano -->
+				<section>
+					<h1>Caso 3: Monitoreo de Emisiones de Metano Entérico</h1>
+					<div class="solution-box">
+						<p><strong>Publicación:</strong> "Electronic device for automatic individualized monitoring of enteric methane emissions in dairy cows"</p>
+						<p><strong>Autores:</strong> John F. Ramírez-Agudelo, Sebastián Bedoya-Mazo, Luisa F. Moreno-Pulgarín, José F. Guarín</p>
+						<p><strong>Revista:</strong> Rev. Colomb. Cienc. Pecu. 38(4):e358533 (2025)</p>
+					</div>
+					<div class="two-column" style="margin-top: 0.8em;">
+						<div>
+							<h3>🚀 Innovación Tecnológica</h3>
+							<div class="tech-box" style="font-size: 0.75em;">
+								<p><strong>Sistema de bajo costo:</strong></p>
+								<ul>
+									<li>Sensor MQ-4 (< $20 USD)</li>
+									<li>ESP8266 Wi-Fi (< $5 USD)</li>
+									<li>Sistema de flujo de aire (2 L/min)</li>
+									<li>Registro 3x/segundo</li>
+								</ul>
+								<p style="margin-top: 0.5em;"><strong>Módulo de IA:</strong></p>
+								<ul>
+									<li>YOLOv8n para identificación</li>
+									<li>Latencia: 24 ms</li>
+									<li>Precisión: 100% (dataset de 26 vacas)</li>
+								</ul>
+							</div>
+						</div>
+						<div>
+							<h3>📊 Resultados</h3>
+							<ul style="font-size: 0.75em;">
+								<li>✓ Medición individualizada exitosa</li>
+								<li>✓ Identificación de vacas alto-emisoras</li>
+								<li>✓ Series temporales detalladas</li>
+								<li>✓ Transmisión inalámbrica de datos</li>
+							</ul>
+							<h3 style="margin-top: 0.8em;">🌍 Impacto</h3>
+							<p style="font-size: 0.75em;">
+								<strong>Aplicación:</strong> Programas de mejoramiento genético y estrategias de mitigación de gases de efecto invernadero (GEI) en ganadería.
+							</p>
+							<p style="font-size: 0.75em; margin-top: 0.5em;">
+								<strong>Ventaja:</strong> Costo 100x menor que sistemas comerciales tradicionales.
+							</p>
+						</div>
+					</div>
+				</section>
+
+				<!-- RESOLUCIÓN (R) - Caso 4: SmartAgro IA -->
+				<section>
+					<h1>Caso 4: SmartAgro IA - Monitoreo de Actividad en Pastoreo</h1>
+					<div class="solution-box">
+						<p><strong>Proyecto:</strong> "Diseño e Implementación de un Sistema de IA para Monitorear la Actividad de Vacas Lecheras en Pastoreo"</p>
+						<p><strong>Investigadores:</strong> José F. Guarín, John F. Ramírez-Agudelo, Sebastián Bedoya-Mazo (GRICA)</p>
+						<p><strong>Duración:</strong> 24 meses | <strong>Presupuesto:</strong> $230 millones COP</p>
+					</div>
+					<div class="two-column" style="margin-top: 0.8em;">
+						<div>
+							<h3>🎯 Objetivos</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Desarrollo de estaciones IoT de bajo costo (< $200 USD)</li>
+								<li>Módulos de IA para detección de enfermedades</li>
+								<li>Dashboard para >500 productores</li>
+								<li>Código abierto (GPL v3)</li>
+							</ul>
+							<h3 style="margin-top: 0.8em;">🔧 Componentes</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Arduino + sensores ambientales</li>
+								<li>Cámaras para visión computacional</li>
+								<li>Conectividad LoRaWAN</li>
+								<li>Almacenamiento local + nube</li>
+							</ul>
+						</div>
+						<div>
+							<h3>🌱 Enfoque Participativo</h3>
+							<div class="highlight-box" style="font-size: 0.75em;">
+								<p><strong>Co-creación con productores:</strong></p>
+								<ul>
+									<li>10-15 fincas piloto</li>
+									<li>Facilitadores locales capacitados</li>
+									<li>Escuelas de campo (40 horas)</li>
+									<li>"Extensionistas Digitales" certificados</li>
+								</ul>
+							</div>
+							<p style="font-size: 0.75em; margin-top: 0.8em;">
+								<strong>Impacto esperado:</strong>
+							</p>
+							<ul style="font-size: 0.7em;">
+								<li>✓ Reducción 25% en fertilizantes</li>
+								<li>✓ Detección temprana de enfermedades</li>
+								<li>✓ Arraigo territorial juvenil</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<!-- Integración y Síntesis -->
+				<section>
+					<h1>Modelo Integrado GAMMA: De la Teoría a la Práctica</h1>
+					<div style="text-align: center; margin: 1em 0;">
+						<img src="https://via.placeholder.com/800x400/2E8B57/FFFFFF?text=Flujo+Integrado%3A+Libro+%E2%86%92+Modelos+%E2%86%92+Tecnolog%C3%ADa+%E2%86%92+Adopci%C3%B3n" alt="Flujo integrado" style="max-width: 90%; border-radius: 10px;">
+					</div>
+					<div class="two-column" style="margin-top: 1em;">
+						<div>
+							<h3>📚 Fundamento Científico</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Libro: marcos conceptuales y ecuaciones bioeconómicas</li>
+								<li>Tesis: aplicación a problemas específicos (mastitis, RCS)</li>
+								<li>Papers: validación científica internacional</li>
+							</ul>
+						</div>
+						<div>
+							<h3>🔧 Desarrollo Tecnológico</h3>
+							<ul style="font-size: 0.75em;">
+								<li>Hardware abierto de bajo costo</li>
+								<li>IA aplicada (YOLO, visión computacional)</li>
+								<li>Plataformas de datos escalables</li>
+							</ul>
+						</div>
+					</div>
+					<div class="highlight-box" style="margin-top: 1em;">
+						<p><strong>Filosofía GAMMA:</strong> Bioeconomía aplicada = Ciencia rigurosa + Tecnología accesible + Participación comunitaria</p>
+					</div>
+				</section>
+
+				<!-- Impacto y Resultados -->
+				<section>
+					<h1>Impacto Consolidado: Transformando Territorios</h1>
+					<div class="two-column">
+						<div>
+							<h3>📊 Resultados Cuantitativos</h3>
+							<div class="tech-box" style="font-size: 0.75em;">
+								<ul>
+									<li><strong>1 libro publicado</strong> (Generis, 2024)</li>
+									<li><strong>2 artículos Q</strong> (Rev. Colomb. Cienc. Pecu.)</li>
+									<li><strong>3 proyectos</strong> con financiamiento competitivo</li>
+									<li><strong>2 tesis</strong> de maestría en desarrollo</li>
+									<li><strong>US$35 millones</strong> en cooperación internacional (Texas A&M)</li>
+									<li><strong>>1,000 productores</strong> impactados (proyectado)</li>
+								</ul>
+							</div>
+						</div>
+						<div>
+							<h3>🌟 Resultados Cualitativos</h3>
+							<div class="highlight-box" style="font-size: 0.75em;">
+								<ul>
+									<li><strong>Democratización tecnológica:</strong> Dispositivos 100x más económicos que comerciales</li>
+									<li><strong>Código abierto:</strong> Replicabilidad en otros territorios</li>
+									<li><strong>Enfoque territorial:</strong> Co-diseño con comunidades</li>
+									<li><strong>Formación de talento:</strong> Estudiantes y jóvenes rurales</li>
+									<li><strong>Diálogo de saberes:</strong> Ciencia + conocimiento campesino</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p style="text-align: center; margin-top: 1em; font-size: 0.9em; color: #2E8B57;">
+						<strong>"Un agro productivo que construye tejido social, en armonía con la naturaleza"</strong>
+					</p>
+				</section>
+
+				<!-- Llamado a la Acción -->
+				<section>
+					<h1>Retos y Oportunidades para Antioquia</h1>
+					<div class="two-column">
+						<div>
+							<h3>🚀 Oportunidades</h3>
+							<ul style="font-size: 0.75em;">
+								<li><strong>Escalamiento regional:</strong> Replicar modelo en subregiones de Antioquia</li>
+								<li><strong>Articulación institucional:</strong> UdeA + Gobernación + IICA + productores</li>
+								<li><strong>Capacitación masiva:</strong> Extensionistas digitales en cada municipio</li>
+								<li><strong>Innovación abierta:</strong> Código y hardware libre para adaptación local</li>
+							</ul>
+						</div>
+						<div>
+							<h3>⚠️ Retos Críticos</h3>
+							<ul style="font-size: 0.75em;">
+								<li><strong>Conectividad rural:</strong> LoRaWAN como alternativa viable</li>
+								<li><strong>Sostenibilidad financiera:</strong> Modelos de negocio comunitarios</li>
+								<li><strong>Adopción tecnológica:</strong> Alfabetización digital contextualizada</li>
+								<li><strong>Políticas públicas:</strong> Incentivos para bioeconomía territorial</li>
+							</ul>
+						</div>
+					</div>
+					<div class="solution-box" style="margin-top: 1em;">
+						<p style="text-align: center;"><strong>Pregunta para la audiencia:</strong></p>
+						<p style="text-align: center; font-size: 0.9em;">
+							¿Cómo podemos articular esfuerzos institucionales, académicos y comunitarios para hacer de Antioquia un referente de bioeconomía territorial con base tecnológica?
+						</p>
+					</div>
+				</section>
+
+				<!-- Diapositiva Final -->
+				<section class="title-slide">
+					<h1>¡Gracias!</h1>
+					<h2>Construyamos juntos la bioeconomía del futuro</h2>
+					<div style="margin-top: 2em; text-align: center;">
+						<p style="font-size: 0.85em;">
+							<strong>Contacto:</strong><br>
+							José Fernando Guarín Montoya, Ph.D.<br>
+							Grupo GAMMA - Facultad de Ciencias Agrarias<br>
+							Universidad de Antioquia<br>
+							<a href="mailto:josefernando.guarin@udea.edu.co">josefernando.guarin@udea.edu.co</a>
+						</p>
+					</div>
+					<div class="logo-container" style="margin-top: 2em;">
+						<p style="font-size: 0.7em; color: #666;">Universidad de Antioquia | GAMMA | IICA</p>
+					</div>
+					<p style="margin-top: 1.5em; font-size: 0.7em; color: #999;">
+						Presentación disponible en: <strong>github.com/gamma-udea</strong>
+					</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				transition: 'slide',
+				slideNumber: true,
+				controls: true,
+				progress: true,
+				center: false,
+				width: 1280,
+				height: 720,
+				margin: 0.04
+			});
+		</script>
+	</body>
+</html>
