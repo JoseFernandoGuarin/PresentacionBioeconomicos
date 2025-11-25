@@ -97,13 +97,19 @@
 		<div class="reveal">
 			<div class="slides">
 
+				<section data-background-color="Cornsilk" data-background-image="images/logosimbolo-vertical.png"  
+				data-background-size="600px" data-background-opacity=.1 class="r-fit-text" data-background-color="Cornsilk">
+				<h2 class="r-fit-text">
+				</h2>
+				</section>
+
 				<!-- Diapositiva de Título -->
-				<section class="title-slide">
+				<section data-background-color="Cornsilk" data-background-image="images/logosimbolo-vertical.png"  
+				data-background-size="600px" data-background-opacity=.1  class="title-slide" data-markdown>
 					<h1>Modelos de Negocios Bioeconómicos en Territorios Rurales</h1>
 					<h2>Tecnologías de bajo costo para la transformación del campo colombiano</h2>
 					<p style="margin-top: 2em; font-size: 0.85em;">
 						<strong>José Fernando Guarín Montoya, Ph.D.</strong><br>
-						Mario Fernando Cerón Muñoz, Ph.D.<br>
 						Grupo de Investigación GAMMA<br>
 						Facultad de Ciencias Agrarias - Universidad de Antioquia
 					</p>
@@ -129,34 +135,32 @@
 				</section>
 
 				<!-- COMPLICACIÓN (C) - Parte 1 -->
-				<section>
-					<h1>Brechas Tecnológicas que Limitan la Competitividad</h1>
-					<div class="two-column">
-						<div>
-							<h3>🔴 Acceso Limitado a Tecnología</h3>
-							<ul>
-								<li>Equipos de monitoreo: $5,000-$50,000 USD</li>
-								<li>Sistemas de gestión: >$2,000 USD/año</li>
-								<li>Inaccesibles para el 85% de productores</li>
-							</ul>
-							<h3 style="margin-top: 1em;">🔴 Información Fragmentada</h3>
-							<ul>
-								<li>Datos productivos sin integrar</li>
-								<li>Decisiones basadas en intuición</li>
-								<li>Imposibilidad de cuantificar impactos</li>
-							</ul>
-						</div>
-						<div>
-							<h3>🔴 Impactos Económicos</h3>
-							<ul>
-								<li><strong>Mastitis bovina:</strong> pérdidas de $150-200/vaca/año</li>
-								<li><strong>Emisiones de metano:</strong> sin cuantificación individual</li>
-								<li><strong>Ineficiencia alimentaria:</strong> 30-40% de desperdicio nutricional</li>
-								<li><strong>Descarte prematuro:</strong> reducción de 2-3 años en vida productiva</li>
-							</ul>
-						</div>
-					</div>
-				</section>
+<section>
+    <h1>Brechas Tecnológicas que Limitan la Competitividad</h1>
+    <div class="two-column">
+        <div>
+            <h3>🔴 Acceso Limitado a Tecnología</h3>
+            <ul>
+                <li>Equipos de monitoreo: $5,000-$50,000 USD</li>
+                <li>Sistemas de gestión: >$2,000 USD/año</li>
+                <li>Inaccesibles para el 85% de productores</li>
+            </ul>
+            <h3 style="margin-top: 1em;">🔴 Información Fragmentada</h3>
+            <ul>
+                <li>Datos productivos sin integrar</li>
+                <li>Decisiones basadas en intuición</li>
+                <li>Imposibilidad de cuantificar impactos</li>
+            </ul>
+        </div>
+
+        <!-- COLUMNA DERECHA CON LA IMAGEN -->
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img src="images/foto.jpg" alt="Foto" 
+                 style="max-width: 100%; height: auto; border-radius: 8px;">
+        </div>
+    </div>
+</section>
+
 
 				<!-- COMPLICACIÓN (C) - Parte 2 -->
 				<section>
@@ -203,38 +207,48 @@
 					<p style="margin-top: 1em;"><strong>Enfoque:</strong> Co-creación con productores rurales para asegurar adopción y sostenibilidad.</p>
 				</section>
 
-				<!-- RESOLUCIÓN (R) - Libro de Bioeconomía -->
-				<section>
-					<h1>Fundamento: Libro "Modelos Bioeconómicos para Evaluación de Bovinos"</h1>
-					<div class="two-column">
-						<div>
-							<div class="tech-box">
-								<p><strong>Autores:</strong> Mario F. Cerón-Muñoz & José F. Guarín-Montoya</p>
-								<p><strong>Editorial:</strong> Generis Publishing (2024)</p>
-								<p><strong>Enfoque:</strong> Transdisciplinar (economía + biología + producción animal + ambiente)</p>
-							</div>
-							<p><strong>Contenido:</strong></p>
-							<ul style="font-size: 0.75em;">
-								<li><strong>Cap. 1:</strong> Costos parciales y Retorno Diferencial de Desempeño (RDDbio)</li>
-								<li><strong>Cap. 2:</strong> Evaluación bioeconómica mediante pseudosimulación</li>
-								<li><strong>Cap. 3:</strong> Dinámica de sistemas de producción</li>
-								<li><strong>Cap. 4:</strong> Herramientas analíticas para valoración de fincas</li>
-							</ul>
-						</div>
-						<div>
-							<div class="highlight-box">
-								<p><strong>Innovación Metodológica:</strong></p>
-								<ul style="font-size: 0.75em;">
-									<li>✓ Integra parámetros biológicos, económicos y ambientales</li>
-									<li>✓ Algoritmos en R-project (código abierto)</li>
-									<li>✓ Aplicable a diferentes sistemas productivos</li>
-									<li>✓ Permite comparar individuos y sistemas</li>
-								</ul>
-							</div>
-							<p style="font-size: 0.75em; margin-top: 1em;"><strong>Impacto:</strong> Financiado por CODI-UdeA (Proyecto 2022-52272). Base conceptual para desarrollos tecnológicos posteriores.</p>
-						</div>
-					</div>
-				</section>
+<!-- SLIDE PADRE (vertical stack) -->
+<section>
+
+    <!-- SLIDE 1 (izquierda: contenido del libro) -->
+    <section>
+        <h1>Fundamento: Libro "Modelos Bioeconómicos para Evaluación de Bovinos"</h1>
+
+        <div class="tech-box">
+            <p><strong>Autores:</strong> Mario F. Cerón-Muñoz & José F. Guarín-Montoya</p>
+            <p><strong>Editorial:</strong> Generis Publishing (2024)</p>
+            <p><strong>Enfoque:</strong> Transdisciplinar (economía + biología + producción animal + ambiente)</p>
+        </div>
+
+        <p><strong>Contenido:</strong></p>
+        <ul style="font-size: 0.85em;">
+            <li><strong>Cap. 1:</strong> Costos parciales y Retorno Diferencial de Desempeño (RDDbio)</li>
+            <li><strong>Cap. 2:</strong> Evaluación bioeconómica mediante pseudosimulación</li>
+            <li><strong>Cap. 3:</strong> Dinámica de sistemas de producción</li>
+            <li><strong>Cap. 4:</strong> Herramientas analíticas para valoración de fincas</li>
+        </ul>
+    </section>
+
+    <!-- SLIDE 2 (derecha: innovación + impacto) -->
+    <section>
+        <h2>Innovación Metodológica</h2>
+
+        <div class="highlight-box">
+            <ul style="font-size: 0.85em;">
+                <li>✓ Integra parámetros biológicos, económicos y ambientales</li>
+                <li>✓ Algoritmos en R-project (código abierto)</li>
+                <li>✓ Aplicable a diferentes sistemas productivos</li>
+                <li>✓ Permite comparar individuos y sistemas</li>
+            </ul>
+        </div>
+
+        <p style="font-size: 0.85em; margin-top: 1em;">
+            <strong>Impacto:</strong> Financiado por CODI-UdeA (Proyecto 2022-52272). Base conceptual para desarrollos tecnológicos posteriores.
+        </p>
+    </section>
+
+</section>
+
 
 				<!-- RESOLUCIÓN (R) - Caso 1: Tesis de Manuela -->
 				<section>
@@ -509,7 +523,7 @@
 				<!-- Diapositiva Final -->
 				<section class="title-slide">
 					<h1>¡Gracias!</h1>
-					<h2>Construyamos juntos la bioeconomía del futuro</h2>
+					
 					<div style="margin-top: 2em; text-align: center;">
 						<p style="font-size: 0.85em;">
 							<strong>Contacto:</strong><br>
@@ -523,7 +537,7 @@
 						<p style="font-size: 0.7em; color: #666;">Universidad de Antioquia | GAMMA | IICA</p>
 					</div>
 					<p style="margin-top: 1.5em; font-size: 0.7em; color: #999;">
-						Presentación disponible en: <strong>github.com/gamma-udea</strong>
+						Presentación disponible en: <strong>https://josefernandoguarin.github.io/PresentacionBioeconomicos/</strong>
 					</p>
 				</section>
 
